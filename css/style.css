@@ -1,0 +1,91 @@
+body{
+    background-image: url('./images.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1{
+    background: linear-gradient(to right ,skyblue, rgb(230, 234, 230));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(17, 16, 16);
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-left-width: 15px;
+    border-right-style: double;
+    border-right-width: 15px;
+    border-left-color: silver;
+    border-right-color: silver;
+    margin: 3px;
+    text-shadow: 3px 4px 5px yellow;
+
+    
+
+
+}
+.h
+{
+    /* height: 200px; */
+    position: relative;
+    float: left ;
+
+}
+.h1
+{
+ position:relative;
+ float:right;
+ /* top: 100px;
+ right: 100px */
+
+}
+h1:hover{
+    color: white;
+    border-color: rgb(219, 13, 30);
+}
+
+ 
+ p{
+
+    clear: both;
+    background: linear-gradient(to left  ,skyblue, rgb(211, 223, 211));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(5, 6, 5);
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: cyan dotted underline;
+    border-style: solid;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 0px 0px grey;
+    transform: translate(10px, 50px) skew(-10deg ,1deg);
+    /* transform: skew(-10deg ,1deg); */
+    /* animation: slide 5s; */
+    
+ }
+ @keyframes slide {
+    from{margin:10%;}
+    to{margin-top: 0%;}
+    50%{transform: scale(1,2);}
+    
+ }
+ .p3
+ {
+        /* animation: slide 5s ?; */
+        animation: slide 8s  5;
+ }
+ p:hover{
+    border-color: blue;
+
+ }
+
+
+ 
